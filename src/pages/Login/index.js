@@ -3,6 +3,7 @@ import fogueteImg from "../../assets/images/login.svg";
 import avatarImg from "../../assets/images/avatar.svg";
 import "./styles.css";
 import "../../assets/fontawesome/css/all.css";
+import {Link} from "react-router-dom";
 
 function Login() {
     const AltIconColor = props => {
@@ -60,7 +61,7 @@ function Login() {
           <a href="#">
             Esqueceu a senha? Não se preocupe, clique aqui para recuperá-la
           </a>
-          <input type="button" href="{{}}" className="btn" value="Login" />
+          <Link className="btn" to="/Home">Home</Link>
         </form>
       </div>
     </div>
