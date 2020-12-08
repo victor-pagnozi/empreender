@@ -23,7 +23,7 @@ function Login() {
       <div className="login-container">
         <form action="">
           <img src={avatarImg} alt="" className="avatar" />
-          <h1>EMPREENDEDORISMO</h1>
+          <h1>EMPREENDEDORISMO</h1> 
           <h5>Seja Bem Vindo! Por favor acesse sua conta, ou cadastre-se!</h5>
           <div className="input-div label-float login">
             <div className="i">
